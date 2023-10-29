@@ -1,0 +1,153 @@
+.sidebar__container {
+  font-family: "TT Lakes";
+  width: 320px;
+  margin: 23px 24px 32px 24px;
+}
+@font-face {
+  font-family: "TT Lakes";
+  src: url(../font/TTLakes-Regular.eot) format("eot"),
+    url(../font/TTLakes-Regular.ttf) format("ttf"),
+    url(../font/TTLakes-Regular.woff) format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url(../font/TTLakes-Medium.eot) format("eot"),
+    url(../font/TTLakes-Medium.ttf) format("ttf"),
+    url(../font/TTLakes-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: medium;
+}
+@font-face {
+  font-family: "TT Lakes";
+  src: url(../font/TTLakes-Bold.eot) format("eot"),
+    url(../font/TTLakes-Bold.ttf) format("ttf"),
+    url(../font/TTLakes-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: "TT Lakes";
+  src: url(../font/TTLakesCompressed-Regular.eot) format("eot"),
+    url(../font/TTLakesCompressed-Regular.ttf) format("ttf"),
+    url(../font/TTLakesCompressed-Regular.woff) format("woff");
+  font-weight: 800;
+}
+
+.sidebar__button-close {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  border-radius: 40px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__button-close:active {
+  width: 40px;
+  height: 40px;
+  background-color: #d53968;
+  border-radius: 40px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.sidebar__button {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  border-radius: 40px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar__button:active {
+  width: 40px;
+  height: 40px;
+  background-color: #d53968;
+  border-radius: 40px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 78px;
+}
+
+.sidebar__header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 16px;
+}
+
+.sidebar__service-list {
+  margin: 50px 0 180px 0;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+}
+.sidebar__service-bttn {
+  margin: 32px 0 32px 0px;
+}
+
+.sidebar__contacts-bttns {
+  display: flex;
+  column-gap: 16px;
+}
+
+.sidebar__translate-bttn {
+  border: none;
+  background-color: transparent;
+}
+
+.sidebar__mail {
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.sidebar__number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.sidebar__service-bttn:hover {
+  color: #7e7e82;
+  position: relative;
+  border-left: 4px solid aquamarine;
+  margin-left: -24px;
+  padding-left: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.sidebar__service-bttn:active {
+  color: black;
+  position: relative;
+  background-color: #d0d0d0;
+  border-left: 4px solid aquamarine;
+  margin-left: -24px;
+  padding-left: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.sidebar__translate-bttn:active {
+  font-weight: bold;
+}
