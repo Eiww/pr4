@@ -1,32 +1,32 @@
 @font-face {
   font-family: "TT Lakes";
-  src: url(../font/TTLakes-Regular.eot) format("eot"),
-    url(../font/TTLakes-Regular.ttf) format("ttf"),
-    url(../font/TTLakes-Regular.woff) format("woff");
+  src: url(./font/TTLakes-Regular.eot) format("eot"),
+    url(./font/TTLakes-Regular.ttf) format("ttf"),
+    url(./font/TTLakes-Regular.woff) format("woff");
   font-style: normal;
 }
 
 @font-face {
   font-family: "TT Lakes";
-  src: url(../font/TTLakes-Medium.eot) format("eot"),
-    url(../font/TTLakes-Medium.ttf) format("ttf"),
-    url(../font/TTLakes-Medium.woff) format("woff");
+  src: url(./font/TTLakes-Medium.eot) format("eot"),
+    url(./font/TTLakes-Medium.ttf) format("ttf"),
+    url(./font/TTLakes-Medium.woff) format("woff");
   font-weight: 500;
   font-style: medium;
 }
 @font-face {
   font-family: "TT Lakes";
-  src: url(../font/TTLakes-Bold.eot) format("eot"),
-    url(../font/TTLakes-Bold.ttf) format("ttf"),
-    url(../font/TTLakes-Bold.woff) format("woff");
+  src: url(./font/TTLakes-Bold.eot) format("eot"),
+    url(./font/TTLakes-Bold.ttf) format("ttf"),
+    url(./font/TTLakes-Bold.woff) format("woff");
   font-weight: 700;
   font-style: bold;
 }
 @font-face {
   font-family: "TT Lakes";
-  src: url(../font/TTLakesCompressed-Regular.eot) format("eot"),
-    url(../font/TTLakesCompressed-Regular.ttf) format("ttf"),
-    url(../font/TTLakesCompressed-Regular.woff) format("woff");
+  src: url(./font/TTLakesCompressed-Regular.eot) format("eot"),
+    url(./font/TTLakesCompressed-Regular.ttf) format("ttf"),
+    url(./font/TTLakesCompressed-Regular.woff) format("woff");
   font-weight: 800;
 }
 section {
